@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer Registration - Join SAPDS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Farmer Registration - Join SAPDS</h1>
+        <h2>- by Disha Gaikwad</h2>
+    </header>
+
+    <div class="container">
+        <h1>Register as a Farmer on SAPDS</h1>
+
+        <form id="farmerForm" action="#" method="post" onsubmit="return validateForm()">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact" placeholder="Enter your contact number" required>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" placeholder="Enter your location" required>
+
+            <label for="bank-details">Bank Details:</label>
+            <input type="text" id="bank-details" name="bank-details" placeholder="Enter bank account details" required>
+
+            <label for="farmer-type">Farmer Type:</label>
+            <select id="farmer-type" name="farmer-type" required>
+                <option value="fruits">Fruit Farmer</option>
+                <option value="vegetables">Vegetable Farmer</option>
+                <option value="grains">Grain Farmer</option>
+                <option value="dairy">Dairy Farmer</option>
+                <option value="mixed">Mixed Produce Farmer</option>
+                <option value="other">Other</option>
+            </select>
+
+            <button type="submit">Register as Farmer</button>
+        </form>
+
+        <div class="info-section">
+            <h2>How It Works for Farmers:</h2>
+            <ul>
+                <li>After registration, farmers can list their agricultural produce.</li>
+                <li>Manage pricing, quantities, and receive direct orders from consumers.</li>
+                <li>Set delivery preferences (self-delivery or third-party delivery).</li>
+            </ul>
+
+            <div class="icons">
+                <img src="https://cdn-icons-png.flaticon.com/128/15413/15413524.png" alt="Farm Produce Icon" title="Farm Produce">
+                <img src="https://cdn-icons-png.flaticon.com/128/17238/17238186.png" height="50" alt="Farmer Icon" title="Farmer Identity">
+                <img src="https://cdn-icons-png.flaticon.com/128/18242/18242351.png" alt="Delivery Process Icon" title="Delivery Process">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Contact us at <strong>support@sapds.com</strong> or call <strong>+1-800-555-0199</strong> for assistance.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

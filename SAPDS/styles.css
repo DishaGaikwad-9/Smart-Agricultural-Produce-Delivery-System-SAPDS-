@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('bg.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+header {
+    background-color: #D19C26;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, select, button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #D19C26;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #FCF6C8;
+}
+
+.info-section {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #FCF6C8;
+    border-radius: 5px;
+}
+
+.info-section h2 {
+    color: #DFA62D;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.icons img {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+    background-color: #D19C26;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 2px solid #D19C26;
+}
